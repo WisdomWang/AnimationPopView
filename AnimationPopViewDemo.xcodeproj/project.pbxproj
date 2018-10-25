@@ -14,6 +14,8 @@
 		4AE9E26320FC40BA008E96C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE9E26120FC40BA008E96C3 /* LaunchScreen.storyboard */; };
 		4AE9E26E20FC40BA008E96C3 /* AnimationPopViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE9E26D20FC40BA008E96C3 /* AnimationPopViewDemoTests.swift */; };
 		4AE9E27920FC40BA008E96C3 /* AnimationPopViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE9E27820FC40BA008E96C3 /* AnimationPopViewDemoUITests.swift */; };
+		4AE9E28720FC40DE008E96C3 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE9E28620FC40DE008E96C3 /* CustomButton.swift */; };
+		4AE9E28920FC4616008E96C3 /* PopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE9E28820FC4616008E96C3 /* PopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4AE9E27420FC40BA008E96C3 /* AnimationPopViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationPopViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE9E27820FC40BA008E96C3 /* AnimationPopViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPopViewDemoUITests.swift; sourceTree = "<group>"; };
 		4AE9E27A20FC40BA008E96C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE9E28620FC40DE008E96C3 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		4AE9E28820FC4616008E96C3 /* PopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				4AE9E25820FC40B9008E96C3 /* AppDelegate.swift */,
 				4AE9E25A20FC40B9008E96C3 /* ViewController.swift */,
+				4AE9E28620FC40DE008E96C3 /* CustomButton.swift */,
+				4AE9E28820FC4616008E96C3 /* PopView.swift */,
 				4AE9E25C20FC40B9008E96C3 /* Main.storyboard */,
 				4AE9E25F20FC40BA008E96C3 /* Assets.xcassets */,
 				4AE9E26120FC40BA008E96C3 /* LaunchScreen.storyboard */,
@@ -258,6 +264,8 @@
 			files = (
 				4AE9E25B20FC40B9008E96C3 /* ViewController.swift in Sources */,
 				4AE9E25920FC40B9008E96C3 /* AppDelegate.swift in Sources */,
+				4AE9E28920FC4616008E96C3 /* PopView.swift in Sources */,
+				4AE9E28720FC40DE008E96C3 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +444,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZexueEducation.AnimationPopViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -453,6 +462,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZexueEducation.AnimationPopViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
